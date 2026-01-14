@@ -1,0 +1,47 @@
+/* ===== サイト紹介セクション用 ===== */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* 見出し */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #4f6ef7;
+  color: #222;
+}
+
+/* 本文 */
+section p {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+/* 箇条書き */
+section ul {
+  margin: 16px 0 20px 20px;
+  padding-left: 10px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #333;
+  list-style: disc;
+}
+
+/* 強調用（必要なら使える） */
+.highlight {
+  font-weight: bold;
+  color: #4f6ef7;
+}
+
+/* 全体背景を少し柔らかくしたい場合 */
+body {
+  background-color: #f7f8fb;
+}
